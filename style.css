@@ -1,0 +1,252 @@
+@font-face {
+    font-family: JuneBug;
+    src: url('JUNEBUG.TTF');
+}
+
+.color {
+
+    background-color: #2f4f4f;
+}
+
+#kotak_login {
+
+    width: 400px;
+    background-color: #597272;
+    margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+#kata_login {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+    border-bottom: 3px solid #46de4b;
+}
+
+label {
+    float: left;
+    font-size: 20px;
+}
+
+.form_login {
+    width: 100%;
+    height: 30px;
+}
+
+.tombol_login {
+    background: #46de4b;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.tombol_regis {
+    background: #46de4b;
+    color: white;
+    font-size: 5px;
+    width: 100%;
+    padding-top: 10px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.kata_regis {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.gambar {
+    background-image: url(goblok.jpg)
+}
+
+.kotak_regis {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px 20px;
+
+
+    box-sizing: border-box;
+
+
+}
+
+.form {
+    filter: opacity(100%);
+}
+
+.tombol_regis {
+    width: 100%;
+    background: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border: 2px solid #135db9;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.notif {
+    background-color: aqua;
+    height: 40px;
+    width: 50px;
+    vertical-align: center;
+}
+
+.abu-abu {
+    background-color: #161616;
+    height: 400px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.biru {
+    height: 40px;
+    background-color: #4b4b4b !important;
+}
+
+.gold {
+    height: 200px;
+    background-color: gold;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.hijau {
+    background-color: #46de4b;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.blue {
+    height: 200px;
+    background-color: aquamarine;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.font {
+    font-size: 20px;
+    color: lightcyan;
+    font-style: italic
+}
+
+.reset-gutter {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+.navbar-brand {
+    padding: 0 10px 5px 10px !important;
+}
+
+ul>li>a {
+    text-transform: uppercase;
+    color: #161616 !important;
+    font-weight: 700;
+}
+
+.navbar-default {
+    background-color: red !important;
+}
+
+.bg {
+    background: url(images.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.merah {
+    background-color: #161616;
+    height: 400px;
+}
+
+//jumbotron {
+background-image: url(picture/wedding.jpg) !important;
+background-size: cover fixed;
+-webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+background-size: 100% 100%;
+}
+
+.bawah {
+    background-color: fuchsia !important;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.nav-center {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.lebar {
+    width: 100%
+}
+
+.gambar1 {
+
+    background-image: url(picture/wed.jpg) !important;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    border: -1px;
+}
+
+.jumbotron {
+    background-color: chartreuse;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.body {
+    position: relative;
+}
+
+@font-face {
+    font-family: "font1";
+    src: url('font/Sweet Cookie_0.ttf');
+}
+
+.font {
+    font-family: "font1";
+    color: black;
+    font-size: 50px;
+}
+
+.card {
+    border: 0px;
+}
+
+.padding-nav {
+    margin-bottom: -10px;
+}
