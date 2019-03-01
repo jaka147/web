@@ -150,7 +150,7 @@
         <h4><i class="fab fa-twitter-square ml-4 text-warning"><a href="https://www.instagram.com/?hl=id" class="text-light"> Twitter</a></i></h4>
         <h4><i class="fab fa-instagram ml-4 text-warning"> Instagram</i></h4>
         <h4><i class="fab fa-facebook-f ml-4 text-light"> Facebook</i></h4>
-
+        <h4><i class="far fa-envelope ml-4 text-light"> Email</i></h4>
         <h4><i class="far fa-envelope ml-4 text-light"> Email</i></h4>
       </footer>
     </div>    
