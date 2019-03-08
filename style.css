@@ -2,6 +2,7 @@
     font-family: JuneBug;
     src: url('JUNEBUG.TTF');
 }
+}
 
 .color {
 
@@ -175,13 +176,13 @@ ul>li>a {
     height: 400px;
 }
 
-//jumbotron {
-background-image: url(picture/wedding.jpg) !important;
-background-size: cover fixed;
--webkit-background-size: 100% 100%;
--moz-background-size: 100% 100%;
--o-background-size: 100% 100%;
-background-size: 100% 100%;
+jumbotron {
+    background-image: url(picture/wedding.jpg) !important;
+    background-size: cover fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 .bawah {
@@ -237,6 +238,16 @@ background-size: 100% 100%;
     src: url('font/Sweet Cookie_0.ttf');
 }
 
+@font-face {
+    font-family: "copper";
+    src: url('font/COOPBL.TTF');
+}
+
+.font1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
 .font {
     font-family: "font1";
     color: black;
@@ -252,10 +263,112 @@ background-size: 100% 100%;
 }
 
 .navigasi {
-    widows: 1000x;
+    width: 1000px;
     height: 700px;
 }
 
+.abu2 {
+    background-color: #2d3e44;
+}
+
 .jarak30 {
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: -15px;
+    margin-bottom: 30px;
+
+}
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1e3e56;
+    overflow-x: hidden;
+
+    padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* Main content */
+.main {
+    margin-left: 190px;
+    /* Same as the width of the sidenav */
+
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.tombol {
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    font-style: initial;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+.asu {
+    background-color: #1e3e56;
+}
+
+.gambar-gabu {
+    border-radius: 100%;
+    width: 75%;
+    height: 120px;
+}
+
+
+
+.fontadmin {
+
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 6px;
+
 }
