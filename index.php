@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.c  om/releases/v5.7.2/css/all.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
+    
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -82,14 +82,16 @@
           <li>Cetak Ukuran 21R+Frame</li>
           <li>Cd dan file semua foto  </li>
           </ul>
-           <button type="button" class="btn btn-lg btn-block btn-primary">Daftar Sekarang</button>
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#exampleModal">Daftar Sekarang</button>
       </div>
     </div>
 
-      <div class="card mb-4 shadow-sm">
+      
+
+    <div class="card mb-4 shadow-sm">
         <div class="card-header">
-        <h4 class="my-0 font-weight-normal text-muted">Gold Wedding Packge</h4>
-      </div>
+          <h4 class="my-0 font-weight-normal text-muted">Gold Wedding Packge</h4>
+        </div>
 
       <div class="card-body">
         <h1 class="card-title pricing-card-title">2.000.000<small>,-net</small></h1>
@@ -153,7 +155,40 @@
         <h4><i class="far fa-envelope ml-4 text-light"> Email</i></h4>
         <h4><i class="far fa-envelope ml-4 text-light"> Email</i></h4>
       </footer>
-    </div>    
+    </div> 
+
+  <!--Modallll-->
+  <div class="modal fade padding-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><center>Daftar</center></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nama</label>
+                <input type="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
 
     <script>
     $(document).ready(function(){
@@ -183,5 +218,8 @@
       });
     });
     </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
