@@ -15,7 +15,7 @@
   <img src="picture/gabu.jpg" class="img-fluid mb-5 d-block mx-auto gambar-gabu">
   <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-tachometer-alt">DASBOARD</i></button>
   <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-upload">UPLOAD</i></button>
-  <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-users">CLIENT</i></button>
+  <button class="btn btn-outline-info btn-social tombol text-light "><a href="daftar-client.php" class="text-light font1"><i class="fas fa-users">CLIENT</a></i></button>
   <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-sign-out-alt">KELUAR</i></button>
   
 </div>

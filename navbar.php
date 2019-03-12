@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#">Home</a>
+              <a class="nav-link text-light" href="#  ">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Galeri</a>
@@ -155,8 +155,9 @@
         </div>
       </div>
     </footer>
+
       <!--Modallll-->
-  <div class="modal fade padding-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade padding-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -166,33 +167,28 @@
         </button>
       </div>
       <div class="modal-body">
-          <form>
+          <form action="proses-client.php" method="POST">
               <div class="form-group">
-                <input type="username" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Nama Lengkap">
-                </div>
+                <input type="username" class="form-control outline-primary" id="username" name="username" aria-describedby="emailHelp" placeholder="Nama Lengkap">
+              </div>
              <div class="form-group">
-              <input type="text" class="form-control" id="no-telp" placeholder="Nomor Handphone">
+              <input type="text" class="form-control" id="no-telp" placeholder="Nomor Handphone" name="no_telp">
             </div> 
-           
             <div>
                 <label for="exampleInputPassword1">Tanggal Boking</label>
-                <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Tanggal Boking">
+                <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Tanggal Boking" name="boking">
             </div>
-                <label for="exampleInputPassword1">Tempat Foto</label>
-                <br>
-                <br>
-                <textarea name="tempat-foto" row placeholder="Lokasi Foto"></textarea>
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-          </form>
-      
-      <div class="modal-footer">
+            <br>
+            <div>
+            <label for="exampleInputPassword1" >Tempat Foto</label>          
+              <textarea style="width:100%;" name="tempat_foto"></textarea>
+            </div>  
+            <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <button type="submit" class="btn btn-primary">Daftar  </button>
+      </div>             
+          </form>
+     
     </div>
   </div>
 </div>
