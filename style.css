@@ -149,9 +149,8 @@ label {
 
 }
 
-.navbar-brand {
-    padding: 0 10px 5px 10px !important;
-}
+
+
 
 ul>li>a {
     text-transform: uppercase;
@@ -196,6 +195,7 @@ jumbotron {
     width: -webkit-fit-content;
     width: fit-content;
     margin: auto;
+    color: white;
 
 }
 
@@ -375,4 +375,12 @@ jumbotron {
     font-size: 30px;
     letter-spacing: 6px;
 
+}
+
+.padding-jaka {
+    padding-top: 30px;
+}
+
+.padding-10 {
+    padding-left: 10px;
 }
