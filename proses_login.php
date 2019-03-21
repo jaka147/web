@@ -1,7 +1,7 @@
 <?php
     ob_start();
     session_start();
-    if(isset($_SESSION['registrasi_username'])) header("location:index.php");
+    if(isset($_SESSION['registrasi_username'])) header("location:dasboard.php");
     include "db_registrasi.php";
 
     $username = $_POST['username'];
@@ -14,7 +14,7 @@
         $_SESSION['registrasi_id'] = $row_registrasi['id'];
         $_SESSION['registrasi_username'] = $row_registrasi['username'];
         $_SESSION['registrasi_password'] = $row_registrasi['password'];
-    header ("location:index.php");
+    header ("location:dasboard.php");
     } else{
         header ("location:login.php?pesan=gagal");
     }

@@ -23,7 +23,7 @@
   <div class="text-light font1 fontadmin"><center>ADMIN</center></div>
   <img src="picture/gabu.jpg" class="img-fluid mb-5 d-block mx-auto gambar-gabu">
   <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-tachometer-alt">DASBOARD</i></button>
-  <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-upload"><a class="text-light" href="upload.php">UPLOAD</a></i></button>
+  <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-upload">UPLOAD</i></button>
   <button class="btn btn-outline-info btn-social tombol text-light "><a href="daftar-client.php" class="text-light font1"><i class="fas fa-users">CLIENT</a></i></button>
   <button class="btn btn-outline-info btn-social tombol text-light font1"><i class="fas fa-sign-out-alt"><a href="logout.php" class="text-light">KELUAR</a></i></button>
 </div>
@@ -44,8 +44,11 @@
       </li>
     </ul> 
 </div>
-<div>
-  
+<div class="main">
+    <form method="post" enctype="multipart/form-data" action="upload.php">
+        <input type="file" name="gambar">
+        <input type="submit" value="Upload">
+    </form>
 </div>
 
 <script>
@@ -71,4 +74,3 @@ for (i = 0; i < dropdown.length; i++) {
   </body>
 </body>
 </html> 
-
