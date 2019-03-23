@@ -45,9 +45,9 @@
     </ul> 
 </div>
 <div class="main">
-    <form method="post" enctype="multipart/form-data" action="upload.php">
+    <form method="post" enctype="multipart/form-data" action="proses_upload.php">
         <input type="file" name="gambar">
-        <input type="submit" value="Upload">
+        <input type="submit" value="upload">
     </form>
 </div>
 
